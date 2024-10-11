@@ -1,13 +1,12 @@
 import { Navbar } from "./components/layout/Navbar/Navbar";
-import { Home } from "./components/pages/Home";
+import { ItemListContainer } from "./components/pages/ItemListContainer/ItemListContainer";
+import { Footer } from "./components/layout/Footer/Footer";
 function App() {
   return (
     <div>
       <Navbar />
-      <Home />
-      <footer>
-        <ul></ul>
-      </footer>
+      <ItemListContainer Bienvenida="Bienvenido" />
+      <Footer />
     </div>
   );
 }

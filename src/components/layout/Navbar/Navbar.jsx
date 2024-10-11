@@ -1,11 +1,19 @@
 import "./Navbar.css";
+import { CartWidget } from "../../common/CartWidget/CartWidget";
 export const Navbar = () => {
   return (
     <div className="container-navbar">
-      <h2>Nombre de la tienda</h2>
-      <li>Zapatillas</li>
-      <li>Botas</li>
-      <li>Sandalias</li>
+      <img
+        src="https://res.cloudinary.com/drbtidadg/image/upload/v1728670107/Logo_rsrecj.png"
+        alt="logo"
+        width={200}
+      />
+      <ul style={{ display: "flex", gap: 200 }}>
+        <li>Pokemon</li>
+        <li>Pokeballs</li>
+        <li>Suplementos</li>
+      </ul>
+      <CartWidget />
     </div>
   );
 };
