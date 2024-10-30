@@ -1,5 +1,4 @@
-export const Card = (props) => {
-  const { title, price, stock } = props;
+export const Card = ({ title, price, stock }) => {
   return (
     <div style={{ border: "2px solid black", width: "200px", height: "300px" }}>
       <h2>Titulo: {title}</h2>

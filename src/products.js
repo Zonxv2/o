@@ -1,0 +1,38 @@
+export let products = [
+  {
+    id: "1",
+    tittle: "Pikachu",
+    price: 150,
+    stock: 10,
+    imageUrl: "s",
+    description: "Pokemon ratón",
+    category: "Pokemon",
+  },
+  {
+    id: "2",
+    tittle: "Eevee",
+    price: 150,
+    stock: 15,
+    imageUrl: "s",
+    description: "Pokemon zorro",
+    category: "Pokemon",
+  },
+  {
+    id: "3",
+    tittle: "Meowth",
+    price: 130,
+    stock: 5,
+    imageUrl: "s",
+    description: "Pokemon gato",
+    category: "Pokemon",
+  },
+  {
+    id: "4",
+    tittle: "Marill",
+    price: 120,
+    stock: 13,
+    imageUrl: "s",
+    description: "Pokemon ratón",
+    category: "Pokemon",
+  },
+];
