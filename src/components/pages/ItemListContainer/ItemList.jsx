@@ -1,14 +1,30 @@
-import { Card } from "@mui/material";
+import { Card } from "../../common/Card/Card";
 
 const ItemList = ({ items }) => {
-  console.log({ items });
+  console.log(items);
   return (
-    <div>
+    <>
       <h2>Listado de Productos</h2>
-      {items.map(({ id, tittle, price, stock }) => (
-        <Card key={id} tittle={tittle} price={price} stock={stock} />
-      ))}
-    </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          flexWrap: "wrap",
+          width: "100%",
+        }}
+      >
+        {items.map(({ id, title, price, stock, imageUrl }) => (
+          <Card
+            key={id}
+            title={title}
+            price={price}
+            stock={stock}
+            image={imageUrl}
+            id={id}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 
