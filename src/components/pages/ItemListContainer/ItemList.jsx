@@ -1,7 +1,6 @@
 import { Card } from "../../common/Card/Card";
 
 const ItemList = ({ items }) => {
-  console.log(items);
   return (
     <>
       <h2>Listado de Productos</h2>

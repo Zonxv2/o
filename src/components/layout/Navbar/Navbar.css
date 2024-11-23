@@ -5,4 +5,51 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 1000;
+}
+
+.container-navbar .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+.container-navbar .nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.container-navbar .nav-links a {
+  color: #e90202;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.container-navbar .nav-links a:hover {
+  color: rgba(0, 0, 0, 0.579);
+}
+
+.container-navbar .cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-navbar .cart-icon {
+  font-size: 1.5rem;
+  color: #333;
+  margin-right: 5px;
+}
+
+.container-navbar .cart-count {
+  background-color: #007bff;
+  color: white;
+  padding: 2px 6px;
 }

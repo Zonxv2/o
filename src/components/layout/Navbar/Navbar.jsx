@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import { CartWidget } from "../../common/CartWidget/CartWidget";
 import { Link } from "react-router-dom";
+import { colors } from "@mui/material";
 export const Navbar = () => {
   return (
     <div className="container-navbar">
